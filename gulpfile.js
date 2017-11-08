@@ -35,4 +35,5 @@ gulp.task('webserver', function() {
         }));
 });
 
+// watch for changes, compile the sass.
 gulp.task('default', ['watch', 'sass','webserver']);
